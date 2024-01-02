@@ -65,7 +65,7 @@ func NewSafe() string {
 		Numbers:      true,
 		Lowercase:    true,
 		Uppercase:    true,
-		Symbols:      true,
+		Symbols:      false,
 		ExcludeAlike: true,
 		Length:       constant.SAFE_LENGTH,
 	})
